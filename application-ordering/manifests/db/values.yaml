@@ -1,4 +1,7 @@
 mariadb:
+  image:
+    repository: bitnami/mariadb
+    tag: 11.1.2
   architecture: "standalone"
   auth:
     database: "demo"
